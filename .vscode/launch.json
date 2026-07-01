@@ -1,0 +1,126 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Week 1",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 1",
+      "program": "${workspaceFolder}/Week 1/bin/Debug/net9.0/Week 1.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 1",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 2",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 2",
+      "program": "${workspaceFolder}/Week 2/bin/Debug/net9.0/Week 2.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 2",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 3",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 3",
+      "program": "${workspaceFolder}/Week 3/bin/Debug/net9.0/Week 3.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 3",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 4",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 4",
+      "program": "${workspaceFolder}/Week 4/bin/Debug/net9.0/Week 4.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 4",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 5",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 5",
+      "program": "${workspaceFolder}/Week 5/bin/Debug/net9.0/Week 5.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 5",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 6",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 6",
+      "program": "${workspaceFolder}/Week 6/bin/Debug/net9.0/Week 6.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 6",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 7",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 7",
+      "program": "${workspaceFolder}/Week 7/bin/Debug/net9.0/Week 7.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 7",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 8",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 8",
+      "program": "${workspaceFolder}/Week 8/bin/Debug/net9.0/Week 8.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 8",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 9",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 9",
+      "program": "${workspaceFolder}/Week 9/bin/Debug/net9.0/Week 9.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 9",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 10",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 10",
+      "program": "${workspaceFolder}/Week 10/bin/Debug/net9.0/Week 10.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 10",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Week 11",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Week 11",
+      "program": "${workspaceFolder}/Week 11/bin/Debug/net9.0/Week 11.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Week 11",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

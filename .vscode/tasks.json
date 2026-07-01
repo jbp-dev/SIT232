@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build Week 1",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 1/Week 1.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 2",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 2/Week 2.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 3",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 3/Week 3.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 4",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 4/Week 4.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 5",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 5/Week 5.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 6",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 6/Week 6.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 7",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 7/Week 7.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 8",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 8/Week 8.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 9",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 9/Week 9.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 10",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 10/Week 10.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Week 11",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Week 11/Week 11.csproj", "--configuration", "Debug"],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
