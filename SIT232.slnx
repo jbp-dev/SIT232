@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="Week 1/Week 1.csproj" />
+  <Project Path="Week 10/Week 10.csproj" />
+  <Project Path="Week 11/Week 11.csproj" />
+  <Project Path="Week 2/Week 2.csproj" />
+  <Project Path="Week 3/Week 3.csproj" />
+  <Project Path="Week 4/Week 4.csproj" />
+  <Project Path="Week 5/Week 5.csproj" />
+  <Project Path="Week 6/Week 6.csproj" />
+  <Project Path="Week 7/Week 7.csproj" />
+  <Project Path="Week 8/Week 8.csproj" />
+  <Project Path="Week 9/Week 9.csproj" />
+</Solution>
