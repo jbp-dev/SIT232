@@ -1,0 +1,119 @@
+GIT-WORKFLOW
+
+Here’s a compact Git workflow cheat sheet tailored to your SIT232 setup (Mac + Windows).
+
+***
+
+## Daily basics (Mac and Windows)
+
+**Start working (on either machine, in `SIT232`):**
+
+```bash
+cd SIT232              # or cd C:\Users\JBP\Projects\SIT232 on Windows
+git pull               # get latest changes from GitHub
+```
+
+**Finish working (after edits, new weeks, etc.):**
+
+```bash
+git status             # see what changed
+git add .              # stage all changes (or specify files)
+git commit -m "Short message about what you did"
+git push               # send commits to GitHub
+```
+
+**Switching machines (Mac ↔ Windows):**
+
+- On the **machine you’re leaving**: do the “Finish working” block above (`add` → `commit` → `push`).  
+- On the **machine you’re switching to**: in `SIT232`, run:
+
+  ```bash
+  git pull
+  ```
+
+***
+
+## Solution file (`SIT232.slnx`)
+
+You **only** need to touch the solution file in Git when you create or modify it (e.g. add/remove projects).
+
+**After changing the solution (running `dotnet sln SIT232.slnx add ...`):**
+
+```bash
+git add SIT232.slnx
+git commit -m "Update solution (add Week X project)"
+git push
+```
+
+On the other machine, just:
+
+```bash
+git pull
+```
+
+***
+
+## Opening the project
+
+- **Windows / Visual Studio**  
+  - Explorer → `C:\Users\JBP\Projects\SIT232` → double‑click `SIT232.slnx`  
+  - Or in PowerShell:
+
+    ```powershell
+    cd C:\Users\JBP\Projects\SIT232
+    & "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\devenv.exe" "SIT232.slnx"
+    ```
+
+- **Mac / VS Code**
+
+  ```bash
+  cd ~/Projects/SIT232
+  code .
+  ```
+
+***
+
+## Quick “am I clean?” check
+
+At any time:
+
+```bash
+git status
+```
+
+- `nothing to commit, working tree clean` → you’re fully in sync.  
+- Any listed files → decide whether to `git add` them and commit, or intentionally leave them untracked.
+
+***
+***
+
+## .gitignore notes (what Git already ignores)
+
+The `dotnet new gitignore` file in this repo already ignores the usual noise, so you **don’t** need to worry about these being committed: [gist.github](https://gist.github.com/vmandic/ac2ecc9c24f6899ee0ec46e4ce444a0e)
+
+- **Build outputs**  
+  - `bin/`, `obj/`, `Debug/`, `Release/`  
+  - Temporary build artifacts from `dotnet build` / `dotnet run`.
+
+- **IDE / tooling clutter**  
+  - Visual Studio: `.vs/`, `*.user`, `*.suo`  
+  - VS Code workspace cruft and some other editor-specific files.
+
+- **OS-level junk**  
+  - macOS: `.DS_Store`  
+  - Windows: `Thumbs.db` and similar (covered by the template). [gitignore](https://gitignore.org/Dotnet)
+
+### What you normally commit
+
+- Your **C# source** files: `Program.cs`, other `.cs` files.  
+- `.csproj` project files in each `Week X` folder.  
+- The `SIT232.slnx` solution file.  
+- Any scripts, notes, or docs you want under version control (e.g. `GIT-WORKFLOW.txt`).
+
+If you later decide there’s a local-only folder you never want in Git (for example, a scratch `notes-local/` folder), add a line like this to `.gitignore`:
+
+```gitignore
+notes-local/
+```
+
+That’s all you usually need to think about for ignoring files in this SIT232 repo.
