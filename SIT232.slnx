@@ -1,5 +1,10 @@
 <Solution>
-  <Project Path="Week 1/Week 1.csproj" />
+  <Folder Name="/Week 1/">
+    <Project Path="Week 1/DoCasting/DoCasting.csproj" />
+    <Project Path="Week 1/IfStatement/IfStatement.csproj" />
+    <Project Path="Week 1/Microwave/Microwave.csproj" />
+    <Project Path="Week 1/SwitchStatement/SwitchStatement.csproj" />
+  </Folder>
   <Project Path="Week 10/Week 10.csproj" />
   <Project Path="Week 11/Week 11.csproj" />
   <Project Path="Week 2/Week 2.csproj" />

@@ -1,4 +1,4 @@
-﻿namespace PracTask1_1
+﻿namespace IfStatement
 {
    internal class IfStatement
    {
