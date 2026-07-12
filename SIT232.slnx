@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Week 1/">
+    <Project Path="CodeSnippets/Week1Snippets.csproj" Id="a6325633-42fd-4346-8cf2-d63d16a1bfa0" />
     <Project Path="Week 1/DoCasting/DoCasting.csproj" />
     <Project Path="Week 1/IfStatement/IfStatement.csproj" />
     <Project Path="Week 1/Microwave/Microwave.csproj" />

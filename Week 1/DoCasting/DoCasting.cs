@@ -1,12 +1,21 @@
 ﻿using System;
 
-namespace MyConsoleApp
+namespace DoCasting
 {
-   internal class Program
+   internal class DoCasting
    {
-      static void Main(string[] args)
+      static void Main()
       {
-         Console.WriteLine("Hello, World!");
+         int sum = 17;
+         int count = 5;
+         int intAverage = sum / count;
+         Console.WriteLine(intAverage);
+
+         double doubleAverage = sum / count;
+         Console.WriteLine(doubleAverage);
+
+         double doubleAverage2 = (double)sum / count;
+         Console.WriteLine(doubleAverage2);
       }
    }
 }

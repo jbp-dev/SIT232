@@ -2,7 +2,7 @@
 {
    internal class SwitchStatement
    {
-      static void Main(string[] args)
+      static void Main()
       {
          Console.WriteLine("Enter a number (as an integer): ");
          int number = Convert.ToInt32(Console.ReadLine());

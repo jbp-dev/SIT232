@@ -2,7 +2,7 @@
 {
    internal class IfStatement
    {
-      static void Main(string[] args)
+      static void Main()
       {
          Console.WriteLine("Enter the number (as an integer): ");
          int number = Convert.ToInt32(Console.ReadLine());
