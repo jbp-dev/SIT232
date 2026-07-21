@@ -3,21 +3,16 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 public class Score
 {
-   public static void Main(string[] args)
+   public static void main(String[] args)
    {
-      double score = 39;
-      if (score >= 40)
-      {
+      double score = 40;
+      if score > 40{
          Console.WriteLine("You passed the exam!");
       }
-      else
-      {
+      else score < 40{
          Console.WriteLine("You failed the exam!");
       }
-
-
    }
-
 }
 
 

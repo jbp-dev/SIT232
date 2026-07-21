@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DivisibleFour/DivisibleFour.csproj" />
+  <Project Path="GuessingNumber/GuessingNumber.csproj" />
+  <Project Path="IncomeTax/IncomeTax.csproj" Id="50b7d889-661e-472f-a432-9ce108e69e9c" />
+  <Project Path="Repetition/Repetition.csproj" />
+  <Project Path="Snippets/Snippets.csproj" Id="72fbda57-1f10-4fd4-834e-7079181074e0" />
+</Solution>
